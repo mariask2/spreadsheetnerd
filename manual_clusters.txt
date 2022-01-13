@@ -183,8 +183,8 @@ skog skogen skogar
 dricka dricker 
 vit vitt
 stall stallet
-socken socknen socknar
-grannsocken grannsocknen grannsocknar
+socken socknen socknar socknarna
+grannsocken grannsocknen grannsocknar grannsocknarna
 skriva skriver skrev
 lagård lagårn lagården ladugård ladugården
 köpa köper köpt köpte
@@ -309,14 +309,13 @@ tallar tallarna
 tunnbröd rågbröd
 livmoder livmodern
 lever levern
-dialekt dialektala dialektal dialekten dialekter dialekterna dial
+dialekt dialektala dialektal dialekten dialekter dialekterna dial mål målen målet
 ung yngre
-gammal äldre
-ord ordet uttryck uttrycket dialektord gamla_dialektord gamla_ord
-gamla ord 
+gammal gamla gammalt äldre
+ord ordet orden uttryck uttrycket dialektord gamla_dialektord gamla_ord
 språk språket
 uttal uttalet uttalas
-tala talar talas talade
+tala talar talas talade talades
 skillnad skillnader skillnaden skiljer skilja
 hör hörde hörs
 riksspråk riksspråket riksspråkets

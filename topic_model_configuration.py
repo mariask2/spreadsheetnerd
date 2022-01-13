@@ -41,7 +41,7 @@ NR_OF_TOP_WORDS = 30
 Nr of most typical document to retrieve for each topic
 """
 
-NR_OF_TOP_DOCUMENTS = 75
+NR_OF_TOP_DOCUMENTS = 100
 
 """
 Number of runs to check the stability of the retrieved topics.
@@ -128,6 +128,8 @@ def corpus_specific_text_cleaning(text):
     text = "<p>" + text + "</p>"
     text = text.replace("\n\n", "\n")
     text = text.replace("\n", "</p><p>")
+    text = text.replace("före mål", "föremål")
+    text = text.replace("ända mål", "ändamål")
     return text
     
 CLEANING_METHOD = corpus_specific_text_cleaning

@@ -6,7 +6,7 @@ f = open('rkf_UIIx_mjexport.json')
 data = json.load(f)
 total_nr_of_texts = 0
 for el in data:
-    texts = el["text"].split("m\n")
+    texts = el["text"].replace("m \n", "m\n").split("m\n")
     id = el["ID"]
     for nr, text in enumerate(texts):
         total_nr_of_texts = total_nr_of_texts + 1
